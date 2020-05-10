@@ -12,3 +12,6 @@ yew = "0.15.0"
 wee_alloc = "0.4.5"
 wasm-logger = "0.2.0"
 
+[profile.release]
+lto = true
+opt-level = 's'

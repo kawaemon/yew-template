@@ -1,8 +1,8 @@
-use yew::{Component, ComponentLink, ShouldRender, html, Html};
+use yew::{html, Component, ComponentLink, Html, ShouldRender};
 
 pub struct App {
     #[allow(dead_code)]
-    link: ComponentLink<Self>
+    link: ComponentLink<Self>,
 }
 
 pub enum AppMessage {}
