@@ -1,7 +1,8 @@
 use yew::{Component, ComponentLink, ShouldRender, html, Html};
 
 pub struct App {
-    Link: ComponentLink<Self>
+    #[allow(dead_code)]
+    link: ComponentLink<Self>
 }
 
 pub enum AppMessage {}
@@ -10,16 +11,16 @@ impl Component for App {
     type Message = AppMessage;
     type Properties = ();
 
-    fn create(_: Self::Properties, Link: ComponentLink<Self>) -> Self {
-        App { Link }
+    fn create(_: Self::Properties, link: ComponentLink<Self>) -> Self {
+        App { link }
     }
 
-    fn change(&mut self, _: Self::Properties) -> bool {
-        false
-    }
-
-    fn update(&mut self, msg: Self::Message) -> ShouldRender {
+    fn update(&mut self, _meg: Self::Message) -> ShouldRender {
         true
+    }
+
+    fn change(&mut self, _new_prop: Self::Properties) -> bool {
+        false
     }
 
     fn view(&self) -> Html {

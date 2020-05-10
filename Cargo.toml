@@ -1,5 +1,5 @@
 [package]
-name = "Yew-template"
+name = "yew-template"
 version = "0.1.0"
 edition = "2018"
 

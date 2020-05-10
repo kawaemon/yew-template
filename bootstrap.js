@@ -1,1 +1,1 @@
-import("./pkg").then((module) => module.StartApp());
+import("./pkg").then((module) => module.start_app());

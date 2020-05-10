@@ -26,7 +26,7 @@ const WebpackConfig: ConfigurationFactory = (
     devServer: {
       contentBase: DistPath,
       compress: argv.mode === "production",
-      port: 8000,
+      port: 8080,
     },
   };
 };

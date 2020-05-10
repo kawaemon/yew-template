@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --mode development --watch",
-    "build": "webpack --mode production"
+    "dev:prod": "webpack-dev-server --mode production --watch",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
   },
   "devDependencies": {
     "@types/copy-webpack-plugin": "^5.0.0",
