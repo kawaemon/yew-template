@@ -15,7 +15,7 @@ impl Component for App {
         App { link }
     }
 
-    fn update(&mut self, _meg: Self::Message) -> ShouldRender {
+    fn update(&mut self, _msg: Self::Message) -> ShouldRender {
         true
     }
 
