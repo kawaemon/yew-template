@@ -1,6 +1,6 @@
 # Yew-template
 
-My setup for web devlopment with [Yew](https://github.com/yewstack/yew).
+My setup for web development with [Yew](https://github.com/yewstack/yew).
 
 Based on [yew-wasm-pack-template](https://github.com/yewstack/yew-wasm-pack-template).
 
