@@ -42,7 +42,7 @@ I wanted to know its effects, so I took benchmark. Here is the results.
 |opt-level = s|76.8 KiB|131 KiB|
 |opt-level = z|81.3 KiB|157 KiB|
 |LTO + opt-level = s|76.4 KiB|129 KiB|
-|LTO + opr-level = z|81.3 Kib|156 KiB|
+|LTO + opt-level = z|81.3 Kib|156 KiB|
 
 
 ## Graph
